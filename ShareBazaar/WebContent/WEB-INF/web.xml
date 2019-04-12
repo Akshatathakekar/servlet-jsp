@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ShareBazaar</display-name>
+  <welcome-file-list>
+    <welcome-file>admin.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <context-param>
+    <param-name>emailid</param-name>
+    <param-value>emailvalue</param-value>
+  </context-param>
+ <!--  <servlet>
+    <servlet-name>admin</servlet-name>
+    <servlet-class>ShareBazaar.src.com.capgemini.controller.AdminController.java</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>admin</servlet-name>
+    <url-pattern>/adminpage.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>shareHome</servlet-name>
+    <servlet-class>com.capgemini.controller.ShareHomeController</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>shareHome</servlet-name>
+    <url-pattern>/shareHomepage.do</url-pattern>
+  </servlet-mapping> -->
+</web-app>
